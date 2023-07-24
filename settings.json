@@ -1,0 +1,169 @@
+{
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "mikeburgh.xml-format"
+    },
+    // "vim.vimrc.path": "C:\\Users\\pact.PACT-20171121YF\\.vimrc",
+    "diffEditor.maxComputationTime": 0,
+    "editor.fontLigatures": null,
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "on",
+    "eslint.format.enable": true,
+    //Terminal settings:
+    // "terminal.integrated.profiles.windows": {
+    //   "Git Bash": {
+    //     "path": "G:\\Program Files\\Git\\bin\\bash.exe"
+    //   }
+    // },
+    // "terminal.integrated.profiles.windows": {
+    //   "PowerShell": {
+    //     "source": "PowerShell",
+    //     "icon": "terminal-powershell"
+    //   },
+    //   "Command Prompt": {
+    //     "path": [
+    //       "${env:windir}\\Sysnative\\cmd.exe",
+    //       "${env:windir}\\System32\\cmd.exe"
+    //     ],
+    //     "args": [],
+    //     "icon": "terminal-cmd"
+    //   },
+    //   "gitbash": {
+    //     // "source": "Git Bash"
+    //     "path": "D:\\Program Files\\Git\\bin\\bash.exe",
+    //     "icon": "terminal-bash"
+    //   },
+    //   "Windows PowerShell": {
+    //     "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    //   }
+    // },
+    // "terminal.integrated.defaultProfile.windows": "gitbash",
+    // "terminal.integrated.cwd": "${workspaceFolder}",
+    "explorer.confirmDelete": false,
+    // "editor.autoSurround": "never",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true
+    },
+    "git.enableSmartCommit": true,
+    "git.ignoreWindowsGit27Warning": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "java.project.importHint": false,
+    "leetcode-problem-rating.defaultLanguage": "java",
+    "leetcode-problem-rating.endpoint": "leetcode-cn",
+    "leetcode-problem-rating.filePath": {
+        "default": {
+            "filename": "${id}.${kebab-case-name}.${ext}",
+            "folder": ""
+        },
+        "java": {
+            "filename": "${id}.${kebab-case-name}-${yyyymmdd}.${ext}",
+            "folder": "${tag}-${difficulty}/java"
+        }
+    },
+    "leetcode-problem-rating.hint.commandShortcut": false,
+    "leetcode-problem-rating.hint.commentDescription": false,
+    "leetcode-problem-rating.hint.configWebviewMarkdown": false,
+    "leetcode-problem-rating.useEndpointTranslation": false,
+    "leetcode-problem-rating.workspaceFolder": "d:\\.leetcode",
+    "markdownlint.config": {
+        "MD003": false,
+        "MD007": {
+            "indent": 4
+        },
+        "MD041": false,
+        "default": true,
+        "no-hard-tabs": false
+    },
+    "npm.keybindingsChangedWarningShown": true,
+    "prettier.embeddedLanguageFormatting": "off",
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "window.zoomLevel": 1,
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.keybindingsPerPlatform": false,
+    "sync.gist": "8fa51b88880ac7c8563091dd214093f9",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.scrollback": 100000,
+    "todohighlight.isEnable": true,
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "manual",
+    "vim.autoSwitchInputMethod.defaultIM": "1033",
+    //vim 输入法设置
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.obtainIMCmd": "D:\\im-select.exe",
+    "vim.autoSwitchInputMethod.switchIMCmd": "D:\\im-select.exe {im}",
+    "vim.handleKeys": {
+        "<C-f>": true,
+        "<C-s>": false,
+        "<C-w>": false
+    },
+    //vim 配置文件
+    // "vim.vimrc.enable": true,
+    "vim.leader": ",",
+    "vim.useSystemClipboard": true,
+    "vim.vimrc.enable": true,
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "cSpell.userWords": [
+        "ACSAPI",
+        "cardlist",
+        "Clickstream",
+        "cooldown",
+        "datasource",
+        "datasources",
+        "EGDS",
+        "expediagroup",
+        "lcpr",
+        "leetcode",
+        "Mutationsupply",
+        "nums",
+        "Querysupply",
+        "strs",
+        "tuid",
+        "typedefs",
+        "utools",
+        "vrbo"
+    ],
+    "git.autofetch": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "numberedBookmarks.navigateThroughAllFiles": "replace",
+    "zenMode.hideLineNumbers": false,
+    "search.exclude": {
+        "**/build": true
+    },
+    "window.openFoldersInNewWindow": "on",
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.foldingMaximumRegions": 10000,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "C:\\Program Files\\Microsoft\\jdk-11.0.15.10-hotspot"
+        }
+    ],
+}
